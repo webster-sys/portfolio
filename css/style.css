@@ -1162,11 +1162,11 @@
 	.dark .container ul li{
 		position: relative;
 		display: block;
-		color: #fff;
+		color: #000;
 		font-size: 30px;
 		height: 60px;
 		width: 60px;
-		background: #ff1d58;
+		background: #E3E2DF;
 		line-height: 60px;
 		border-radius: 50%;
 		margin: 0 15px;
