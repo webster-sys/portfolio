@@ -1283,7 +1283,7 @@
 	width: 100%;
 	background: #121212;
 	font-family: 'Roboto', sans-serif;
-
+	transition: background 0.2s linear;
 	align-items: center;
 	
 	}
