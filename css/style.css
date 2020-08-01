@@ -1273,7 +1273,12 @@
 	list-style: none;
 	overflow-x: hidden;
 }
+
 	body.dark{
+		background: #E3E2DF;
+	}
+
+	body{
 
 	width: 100%;
 	background: #121212;
@@ -1350,6 +1355,20 @@
 	height: 50px;
 	}
 
+	.dark nav{
+	
+	width: 100%;
+	background:  #111d5e ;
+	padding-top: 5px;
+	padding-bottom: 5px; 
+	position: fixed;
+	position: -webkit-sticky;
+	top: 0;
+	text-align: center;
+	height: 50px;
+	}
+
+
 
 	::-webkit-scrollbar{
 		width: 0;
@@ -1386,6 +1405,15 @@
 	top: 45%;
 	}
 
+	.dark .main{
+	padding-top: 10px;
+	padding-left: 10px;
+	color: #002366;
+	font-size: 30px;
+	left: 50%;
+	top: 45%;
+	}
+
 	.gradient{
 		background: -webkit-linear-gradient(#ED008C,#F6D327);
 	   -webkit-background-clip: text;
@@ -1395,6 +1423,20 @@
 
 	.lopez{
 		background: -webkit-linear-gradient(#ED008C,#F6D327);
+	   -webkit-background-clip: text;
+	   -webkit-text-fill-color: transparent;
+	    
+	}
+
+	.dark .gradient{
+		background: -webkit-linear-gradient(#ff1d58,#ff1d58);
+	   -webkit-background-clip: text;
+	   -webkit-text-fill-color: transparent;
+	   
+	}
+
+	.dark .lopez{
+		background: -webkit-linear-gradient(#ff1d58,#ff1d58);
 	   -webkit-background-clip: text;
 	   -webkit-text-fill-color: transparent;
 	    
@@ -1417,9 +1459,28 @@
 		padding-left: 10px; 	
 	}
 
+	.dark .title{
+		display: block;
+		color: #002366;
+		left: 50%;
+		font-size:40px;
+		padding-top: 80px;
+		padding-left: 10px; 	
+	}
+
+
 	.r{
 		
 		color: #fff;
+		padding-left: 10px;
+		font-size: 35px;
+		 	
+	}
+
+
+	.dark .r{
+		
+		color: #002366;
 		padding-left: 10px;
 		font-size: 35px;
 		 	
@@ -1432,6 +1493,15 @@
 	width: 90%;
     text-align: center;
 	}
+
+    .dark .landing{
+	margin-left: 19px;
+	margin-top: 20px;
+	background-color: #111d5e;
+	width: 90%;
+    text-align: center;
+	}
+
 
 	.para{
 	
@@ -1474,7 +1544,7 @@
 	}
 
 	.img-div{
-		background: #121212;
+		
 		width: 100%;
 		height: 10%;
 		margin-top: 10px;
@@ -1524,6 +1594,15 @@
 	padding-top: 5px;
 	}
 
+	.dark .spotify-text{
+	
+	color: #002366;
+	font-size: 45px;
+	
+	padding-top: 5px;
+	}
+
+
 	.spotify-wrapper{
 		
 		width: 100%;		
@@ -1565,10 +1644,21 @@
 		transition: 0.5s ease-in-out;
 	}
 
+	.dark .box{
+		
+		background: #111d5e;
+		width: 100%;
+		max-width: 90%;
+		margin-left: 17.5px;
+		margin-top: 25px; 
+		height: 245px;
+		transition: 0.5s ease-in-out;
+	}
+
 	
 
 	.content{
-	background: #000;
+
 	width: 95%;
 	height: 100%;
 	overflow-y: hidden;
@@ -1784,7 +1874,6 @@
 		margin-top: 50px;
 		align-items: center;
 		justify-content: center;
-		background: #121212;
 		text-align: center;
 	}
 
@@ -1805,6 +1894,20 @@
 		margin: 0 15px;
 		cursor: pointer;
 	}
+	.dark .container ul li{
+		position: relative;
+		display: block;
+		color: #000;
+		font-size:25px;
+		height: 55px;
+		width: 70px;
+		background:  #E3E2DF;
+		line-height: 60px;
+		border-radius: 50%;
+		margin: 0 15px;
+		cursor: pointer;
+	}
+
 
 
 
