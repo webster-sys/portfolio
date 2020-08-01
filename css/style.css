@@ -10,7 +10,9 @@
 	overflow-x: hidden;
 	}
 
-	
+	html{
+		scroll-behavior: smooth;
+	}
 
  	body.dark{
  	background: #E3E2DF;
@@ -120,9 +122,21 @@
 
 	}
 
-	nav a:hover{
-		 border-bottom: solid 2px #fff;
+	nav a.scroll-down{
+	color: #fff;
+	float: right;
+	padding-right: 10px;
+	color: #fff;
+	padding: 5px 15px;
+	margin-right:  10px;
+	margin-top: 10px;
+
 	}
+
+ 	nav a.scroll-down:hover{
+ 		border-bottom: 1px solid #fff;
+ 	}
+
 
 	nav h1.name{
 	font-size: 18px;
