@@ -1305,6 +1305,8 @@
 	.polyhedron{
 		display: none;
 	}
+        
+        .nav:nth-child(3){display:none;}
 
 
 	.toggle-mode{
