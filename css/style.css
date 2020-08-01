@@ -1329,6 +1329,10 @@
 		 
 	}
 
+	.scroll-down{
+		display: none;
+	}
+
 	.checkbox{
 		opacity: 0;
 		position: absolute;
